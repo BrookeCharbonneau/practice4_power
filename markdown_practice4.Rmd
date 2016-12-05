@@ -1,0 +1,57 @@
+---
+title: "Quiz 4"
+author: "Brooke Charbonneau"
+date: "November 8, 2016"
+output: pdf_document
+---
+
+```{r,echo=FALSE,message=FALSE, warning=FALSE}
+# Code goes in blocks like this
+
+# load libraries
+library(tidyverse)
+library(apaTables)
+library(cocor)
+library(predictionInterval)
+
+```
+
+# A. Hypotheses
+
+##Hypothesis 1
+There is a strong positive relationship between self-esteem and academic performance, such that as self-esteem increases, academic performance increases.
+
+##Hypothesis 2
+There is a moderate negative relationship between self-esteem and quality of dating relationships, such that as self-esteem increases, quality of dating relationships decreases.
+
+##Hypothesis 3
+There is a weak positive relationship between self-esteem and quality of friendships, such that as self-esteem increases, quality of friendships increases.
+
+# B. Analysis Plan A
+
+##Hypothesis 1
+I will test hypothesis 1 using a bivariate correlation. I conducted a traditional power analysis as a meta-analysis had been conducted and I was able to estimate a population correlation of *rho*=.50. This power analysis revealed that an *N* of 29 would be necessary for a power of 80.
+
+
+##Hypothesis 2
+I will test hypothesis 2 using a bivariate correlation. I conducted a safeguard power analysis based on the lower bound of the confidence interval for the original study, *r*=-.11. This power analysis revealed that an *N* of 646 would be necessary for a power of 80.
+
+
+##Hypothesis 3
+I will test hypothesis 3 using a bivariate correlation. I conducted a traditional power analysis based on a weak positive relation according to Bosco, Aguinis, Singh, Field and Pierce (2015), *r*=.07. This power analysis revealed that an *N* of 1599 would be necessary for a power of 80.
+
+# C. Analysis Plan B
+
+##Hypothesis 1
+I will test hypothesis 1 using a bivariate correlation. I conducted a traditional sample size analysis as  a meta-analysis had been conducted and I was able to estimate a population correlation of *rho*=.50. This sample size analysis revealed that an *N* of 37 would be necessary to ensure a confidence interval that does not exceed the magnitude of the effect.
+
+
+##Hypothesis 2
+I will test hypothesis 2 using a bivariate correlation. I conducted a safeguard sample size analysis based on the lower bound of the confidence interval for the original study, *r*=-.11. This sample size analysis revealed that an *N* of 1250 would be necessary to ensure a confidence interval that does not exceed the magnitude of the effect.
+
+
+##Hypothesis 3
+I will test hypothesis 3 using a bivariate correlation. I conducted a traditional sample size analysis based on a weak positive relation according to Bosco, Aguinis, Singh, Field and Pierce (2015), *r*=.07. This sample size analysis revealed that an *N* of 3200 would be necessary to ensure a confidence interval that does not exceed the magnitude of the effect.
+
+
+
